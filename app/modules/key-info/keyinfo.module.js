@@ -31,6 +31,34 @@
 			.state('practice-survey',{
 		 		url:'/practice-survey',
 		 		templateUrl:'app/modules/key-info/practice-survey.html'
+		 	})
+		 	.state('psychiatric-nurse',{
+		 		url:'/psychiatric-nurse',
+		 		templateUrl:'app/modules/key-info/psychiatric-nurse.html'
+		 	})
+		 	.state('physiotherapy-clinic',{
+		 		url:'/physiotherapy-clinic',
+		 		templateUrl:'app/modules/key-info/physiotherapy-clinic.html'
+		 	})
+		 	.state('registering',{
+		 		url:'/registering',
+		 		templateUrl:'app/modules/key-info/registering.html'
+		 	})
+		 	.state('prescriptions',{
+		 		url:'/prescriptions',
+		 		templateUrl:'app/modules/key-info/prescriptions.html'
+		 	})
+		 	.state('complaints-procedure',{
+		 		url:'/complaints-procedure',
+		 		templateUrl:'app/modules/key-info/complaints-procedure.html'
+		 	})
+		 	.state('patient-information',{
+		 		url:'/patient-information',
+		 		templateUrl:'app/modules/key-info/patient-information.html'
+		 	})
+		 	.state('travel-vaccinations',{
+		 		url:'/travel-vaccinations',
+		 		templateUrl:'app/modules/key-info/travel-vaccinations.html'
 		 	});
 	}]);
 })();
