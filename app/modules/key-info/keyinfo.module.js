@@ -23,6 +23,10 @@
 		 	.state('antenatal-clinic',{
 		 		url:'/antenatal-clinic',
 		 		templateUrl:'app/modules/key-info/antenatal-clinic.html'
+		 	})
+			.state('stress-counselling-clinic',{
+		 		url:'/stress-counselling-clinic',
+		 		templateUrl:'app/modules/key-info/stress-counselling-clinic.html'
 		 	});
 	}]);
 })();
