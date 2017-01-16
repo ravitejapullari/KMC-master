@@ -27,6 +27,10 @@
 			.state('stress-counselling-clinic',{
 		 		url:'/stress-counselling-clinic',
 		 		templateUrl:'app/modules/key-info/stress-counselling-clinic.html'
+		 	})
+			.state('practice-survey',{
+		 		url:'/practice-survey',
+		 		templateUrl:'app/modules/key-info/practice-survey.html'
 		 	});
 	}]);
 })();
