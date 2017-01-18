@@ -1,6 +1,6 @@
 (function(){
 	'use strict';
-	kmcModule = angular.module('kmcKeyinfoModule',[]);
+	kmcModule = angular.module('kmcKeyinfoModule',['kmcPatientinfoModule']);
 	kmcModule.config(['$windowProvider', '$stateProvider', '$urlRouterProvider', '$locationProvider','$httpProvider',
 		 function($windowProvider, $stateProvider, $urlRouterProvider, $locationProvider,$httpProvider){
 		 	$stateProvider

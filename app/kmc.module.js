@@ -22,7 +22,7 @@
 			url:'/contact-us',
 			templateUrl:'app/modules/home/contact-us.html'
 		});
-		//$locationProvider.html5Mode(true);
+		$locationProvider.html5Mode(true);
 	}])
 	.run(function(){
 		
