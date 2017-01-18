@@ -137,6 +137,7 @@
     .list-group .list-group-item:hover h4{color:#fff;}
 
     .patient-info .btn-lg{margin-bottom:10px;}
+    .patient-info .btn-lg:hover{color:#fff;background:#785bb7;}
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */
