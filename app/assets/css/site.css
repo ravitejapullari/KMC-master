@@ -136,6 +136,8 @@
     .panel.panel-default .panel-body{min-height: 200px;}
     .list-group .list-group-item:hover h4{color:#fff;}
 
+    .patient-info .btn-lg{margin-bottom:10px;}
+
     /* RESPONSIVE CSS
     -------------------------------------------------- */
 
