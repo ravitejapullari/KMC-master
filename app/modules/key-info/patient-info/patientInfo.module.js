@@ -36,6 +36,10 @@
 		 	.state('copd',{
 		 		url:'/patient-information/copd',
 		 		templateUrl:'app/modules/key-info/patient-info/copd.html'
+		 	})
+			 .state('eczema',{
+		 		url:'/patient-information/eczema',
+		 		templateUrl:'app/modules/key-info/patient-info/eczema.html'
 		 	});
 	}]);
 })();
