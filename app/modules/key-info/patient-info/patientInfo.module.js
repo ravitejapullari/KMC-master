@@ -37,6 +37,10 @@
 		 		url:'/patient-information/copd',
 		 		templateUrl:'app/modules/key-info/patient-info/copd.html'
 		 	})
+			 .state('depression',{
+		 		url:'/patient-information/depression',
+		 		templateUrl:'app/modules/key-info/patient-info/depression.html'
+		 	})
 			 .state('eczema',{
 		 		url:'/patient-information/eczema',
 		 		templateUrl:'app/modules/key-info/patient-info/eczema.html'
