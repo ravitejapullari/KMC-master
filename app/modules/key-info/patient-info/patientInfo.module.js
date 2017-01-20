@@ -30,7 +30,7 @@
 		 		templateUrl:'app/modules/key-info/patient-info/cervical-smear.html'
 		 	})
 		 	.state('cold--flu',{
-		 		url:'/patient-information/baccold--flukache',
+		 		url:'/patient-information/cold--flu',
 		 		templateUrl:'app/modules/key-info/patient-info/cold--flu.html'
 		 	})
 		 	.state('copd',{
