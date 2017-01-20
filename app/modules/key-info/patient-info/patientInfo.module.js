@@ -44,6 +44,46 @@
 			 .state('eczema',{
 		 		url:'/patient-information/eczema',
 		 		templateUrl:'app/modules/key-info/patient-info/eczema.html'
+		 	})
+			  .state('epilepsy',{
+		 		url:'/patient-information/epilepsy',
+		 		templateUrl:'app/modules/key-info/patient-info/epilepsy.html'
+		 	})
+			 .state('fever',{
+		 		url:'/patient-information/fever',
+		 		templateUrl:'app/modules/key-info/patient-info/fever.html'
+		 	})
+			  .state('headache',{
+		 		url:'/patient-information/headache',
+		 		templateUrl:'app/modules/key-info/patient-info/headache.html'
+		 	})
+			  .state('irritable-bowel-syndrome',{
+		 		url:'/patient-information/irritable-bowel-syndrome',
+		 		templateUrl:'app/modules/key-info/patient-info/irritable-bowel-syndrome.html'
+		 	})
+			.state('insomnia',{
+		 		url:'/patient-information/insomnia',
+		 		templateUrl:'app/modules/key-info/patient-info/insomnia.html'
+		 	})
+			.state('menopause',{
+		 		url:'/patient-information/menopause',
+		 		templateUrl:'app/modules/key-info/patient-info/menopause.html'
+		 	})
+			.state('reflux-oesophagitis',{
+		 		url:'/patient-information/reflux-oesophagitis',
+		 		templateUrl:'app/modules/key-info/patient-info/reflux-oesophagitis.html'
+		 	})
+			 .state('shingles',{
+		 		url:'/patient-information/shingles',
+		 		templateUrl:'app/modules/key-info/patient-info/shingles.html'
+		 	})
+			.state('sore-throat',{
+		 		url:'/patient-information/sore-throat',
+		 		templateUrl:'app/modules/key-info/patient-info/sore-throat.html'
+		 	})
+			.state('vaginal-thrush',{
+		 		url:'/patient-information/vaginal-thrush',
+		 		templateUrl:'app/modules/key-info/patient-info/vaginal-thrush.html'
 		 	});
 	}]);
 })();
